@@ -2,9 +2,9 @@ version: 2.1
 executors:
   docker-publisher:
     environment:
-      IMAGE_NAME: aakibkhan1212/building-on-ci
+      IMAGE_NAME: 1201abhi/mavenci
     docker:
-      - image: circleci/buildpack-deps:stretch
+      - image: 1201abhi/mavenci:stretch
 jobs:
   build:
     executor: docker-publisher
