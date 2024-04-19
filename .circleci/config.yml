@@ -2,9 +2,9 @@ version: 2.1
 executors:
   docker-publisher:
     environment:
-      IMAGE_NAME: 1201abhi/mavenci
+      IMAGE_NAME: 1201abhi/testcircleci
     docker:
-      - image: 1201abhi/mavenci:stretch
+      - image: 1201abhi/testcircleci:v1
 jobs:
   build:
     executor: docker-publisher
